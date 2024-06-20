@@ -9,7 +9,7 @@ import java.util.List;
 public interface StudentService {
 
 
-    public List<Student> findAllStudent();
+    List<Student> findAllStudent();
 
     Student saveStudent(Student student);
     Student findByEmail(String email);
