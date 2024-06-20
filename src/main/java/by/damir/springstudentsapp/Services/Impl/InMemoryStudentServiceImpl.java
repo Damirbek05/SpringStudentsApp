@@ -31,7 +31,7 @@ public class InMemoryStudentServiceImpl implements StudentService {
     }
 
     @Override
-    public Student deleteStudent(String email) {
+    public void deleteStudent(String email) {
         return null;
     }
 }
