@@ -25,7 +25,7 @@ This is a simple Spring Boot application for managing students, demonstrating CR
 Swagger UI provides a user-friendly interface for testing and documenting your API. After starting the application, access Swagger UI at http://localhost:5252/swagger-ui.html
 
 Access Swagger UI
-URL: http://localhost:5252/swagger-ui/
+URL: http://localhost:5252/swagger-ui.html
 Use the interface to explore and test the API endpoints.
 Code Structure
 controller/ - REST controllers.
