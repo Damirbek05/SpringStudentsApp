@@ -5,10 +5,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 
 public interface StudentRepo extends JpaRepository<Student,Long> {
-    Student findByEmail(String email);
+    Student findStudentByEmail(String email);
 
-    Student updateStudent(Student student);
-
-    void deleteStudent(String email);
+    void deleteByEmail(String email);
 
 }
