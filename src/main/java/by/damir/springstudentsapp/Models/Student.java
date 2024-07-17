@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.time.Period;
 import java.util.Date;
 
 @Data
@@ -21,5 +22,9 @@ public class Student {
     private String email;
     @Transient
     private int age;
+
+    public int getAge(){
+        return Period.between(dateOfBirth, LocalDate.now()).getYears();
+    }
 
 }
